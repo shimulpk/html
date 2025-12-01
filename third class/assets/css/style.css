@@ -1,0 +1,27 @@
+table,tr,th,td{
+    color: blue;
+    border:auto;
+    
+}
+td{
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+}
+ul{
+    list-style: square;
+}
+#nav ul,
+#nav li{
+    list-style: none;
+    float: left;
+    display: flex;
+    margin: 5px;
+    color: brown;
+}
+#nav{
+    background-color: blue;
+    width: 100%;
+    height: 10vh;
+}
