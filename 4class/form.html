@@ -1,25 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=label, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=label, initial-scale=1.0" />
     <title>Document</title>
-</head>
+  </head>
 
-<body>
+  <body>
+    <form action="index.html" method="get">
     <label for="name">Name</label>
-    <input type="text"><br>
+    <input type="text" /><br />
     <label for="email">Email</label>
-    <input type="email"><br>
+    <input type="email" /><br />
     <label for="password">Password</label>
-    <input type="password"><br>
+    <input type="password" /><br />
     <label for="age">Age</label>
-    <input type="number"><br>
+    <input type="number" /><br />
     <label for="dob">Date of Birth</label>
-    <input type="date"><br>
+    <input type="date" /><br />
     <label for="address">Address</label>
-    <textarea name="" id=""></textarea>
-</body>
-
+    <textarea name="address" id="" cols="30" rows="5"></textarea><br />
+    <label for="gender">Gender</label>
+    <input type="radio" name="gender">Male
+    <input type="radio" name="gender">Female
+    <input type="radio" name="gender">others<br>
+      </label>
+      <label for="subject">Subject</label>
+      <select name="subject" id="">
+      <option value="">....select one</option>
+      <option value=""> c#</option>
+      <option value="">java</option>
+      <option value="">nt</option>
+      <option value="">database</option>
+      <option value="">laraval</option>
+      </select><br>
+      <label for="hobby">Hobby</label>
+      <input type="checkbox"> codding 
+      <input type="checkbox"> Travelling
+      <input type="checkbox"> Sleeping <br>
+      <label for="image">Images</label>
+      <input type="file"><br>
+      <label for="signature">Signature</label>
+      <input type="file"><br>
+   <input type="submit" value="sign in">
+   </form>
+  </body>
 </html>
