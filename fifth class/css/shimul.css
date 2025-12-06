@@ -29,3 +29,26 @@
     width: 100%;
     background-color: red;
 }
+body{
+    background-color: #c3ceb9;
+    text-align:left;
+    margin-left: 10vh;
+}
+input[type=submit]{
+    background-color: #5add13;
+}
+#textarea{
+    background-color: #82d290;
+}
+#select{
+    background-color: #ae80e6;
+}
+.texte{
+    background-color: #9c7070;
+}
+.registration{
+    margin: auto;
+    padding: 0%;
+    font-weight: 200;
+    text-align: center;
+}
