@@ -1,0 +1,8 @@
+nav ul li{
+float: left;
+list-style: none;
+display: flex;
+margin: 5px 5px ;
+background-color: #c4b8b8;
+color:blue;
+}

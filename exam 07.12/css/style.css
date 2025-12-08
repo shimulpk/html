@@ -1,0 +1,37 @@
+table{
+    margin: 0
+    padding 0;
+    background-color: #858471;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+tr,th,td{
+    padding: 5px;
+    text-align: center;
+}
+#navbar{
+    background-color: #ab8b8b;
+    width: 100%;
+    height: 20vh;
+}
+#navbar,ul,li{
+    list-style: none;
+    float: left;
+    
+    margin-right: 10px;
+}
+#content{
+    height: 80vh;
+    width: auto;
+    background-color: #a47777;
+
+}
+iframe{
+    width: 100%;
+    display: block;
+    height: 100vh;
+
+}
+footer{
+    text-align: center;
+}
