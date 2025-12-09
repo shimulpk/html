@@ -1,0 +1,31 @@
+#navbar{
+   width:100%;
+   height:100vh;
+
+}
+#navbar,ul,li{
+    list-style: none;
+    float: left;
+    background-color: #cf2727;
+    margin: 5px;
+}
+#navbar,a{
+    text-decoration: none;
+}
+#bottom{
+    width: 100%;
+    height: 100vh;
+}
+#bottom,iframe{
+    width: 100%;
+    height: 100vh;
+}
+table{
+    background-color: #c5b2b2;
+    width: 100%;
+    height:100vh;
+}
+ tr th td{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
