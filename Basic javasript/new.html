@@ -21,7 +21,13 @@
             let b =document.getElementById("num2").value;
             let pa =Number.parseInt(a);
             let pb =Number.parseInt(b);
-            document.getElementById("output").innerHTML="result"
+
+            if(pb % pa == 0){
+                 document.getElementById("output").innerText = pb /pa;
+            } else {
+                document.getElementById("output").innerText = 0;
+            }
+           
         }
     </script>
 </body>
