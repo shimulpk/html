@@ -6,14 +6,23 @@
     <title>Document</title>
 </head>
 <body>
-    <label for="">Name</label>
-    <input type="text" id="name" onclick="checkName()"><br>
-    <input type="submit" value="check name"><br>
-    <label for="result">No result</label>
+    <label for="">number</label><br>
+    <input type="text" id="num1"><br>
+    <input type="text" id="num2"><br>
+    <button onclick="checkMath()">check</button><br>
+    <p id="output"></p><br>
+
+
+
+
     <script>
-        function writeName(){
-     let name=document.getElementById("result").innerHTML=<strong>shimul</strong>         
-       } 
+        function checkMath(){
+            let a =document.getElementById("num1").value;
+            let b =document.getElementById("num2").value;
+            let pa =Number.parseInt(a);
+            let pb =Number.parseInt(b);
+            document.getElementById("output").innerHTML="result"
+        }
     </script>
 </body>
 </html>

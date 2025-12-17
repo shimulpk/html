@@ -1,0 +1,81 @@
+#secondPage{
+    background-color:black;
+    margin: 0;
+    padding: 0;
+}
+#page2{
+    -ms-flex-item-align: center;
+}
+#secondpageh1{
+    text-align: center;
+    color:antiquewhite;
+}
+#secondpageh3{
+    text-align: center;
+    color: blanchedalmond;
+}
+#secondrow2{
+    margin-top: 40px;
+}
+
+#clawh1{
+    text-align:center;
+    color:antiquewhite;
+}
+#pclaw{
+    text-align: center;
+    color: blanchedalmond;
+    justify-content:center;
+}
+#civillih1{
+    text-align:center;
+    color:antiquewhite;
+}
+#pcivilli{
+   text-align: center;
+    color: blanchedalmond;
+    justify-content:center; 
+}
+#thirdrow2{
+    margin-top: 40px;
+}
+
+#criminallih1{
+    text-align:center;
+    color:antiquewhite;
+}
+#pcriminalli{
+   text-align: center;
+    color: blanchedalmond;
+    justify-content:center; 
+}
+#bankinginh1{
+    text-align:center;
+    color:antiquewhite;
+}
+#pbankingin{
+   text-align: center;
+    color: blanchedalmond;
+    justify-content:center; 
+}
+#forthrow2{
+    margin-top: 40px;
+}
+#labourinh1{
+    text-align:center;
+    color:antiquewhite;
+}
+#plabourin{
+   text-align: center;
+    color: blanchedalmond;
+    justify-content:center; 
+}
+#companyla2{
+    text-align:center;
+    color:antiquewhite;
+}
+#pcompanyla{
+   text-align: center;
+    color: blanchedalmond;
+    justify-content:center; 
+}

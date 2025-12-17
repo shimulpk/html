@@ -1,0 +1,59 @@
+/*  
+Theme Name: Ocody Law
+Theme URI: http://www.tech.ocody.com/theme/ocodylaw
+Description: A theme for Wordpress. Featuring threaded-comments, responsive-design, right-sidebar, custom-background, custom-header, featured-images, full-width-template, custom-menu, sticky-post, widget for sidebar and 3-column bottom menu, and translation-ready. To display the Featured Slider in homepage, go to your post, set the Featured Images and add category name 'Featured'. If there is no post in Featured category, the slider will not appear. Open readme.txt (included in the zip file) for more documentation.
+Version: 1.5
+Author: Ocody Tech
+Author URI: http://www.tech.ocody.com/
+License: GNU General Public License
+License URI: license.txt
+Tags: threaded-comments, responsive-web-design, fixed-width, right-sidebar, two-columns, three-columns, white, custom-background, custom-header, featured-images, full-width-template, custom-menu, sticky-post, translation-ready
+*/
+
+
+
+/* ===================== pagination ===================== */ 
+
+.navigation{text-align: center; padding: 20px;}
+.navigation li a,
+.navigation li a:hover,
+.navigation li.active a,
+.navigation li.disabled {color: #fff; text-decoration:none;}
+
+.navigation li {display: inline;}
+
+.navigation li a,
+.navigation li a:hover,
+.navigation li.active a,
+.navigation li.disabled { font-size:15px; 
+    background-color: #fff;
+    border: 3px solid #ed79ae;
+    border-radius: 0;
+    color: #333;
+    display: inline-block;
+    letter-spacing: 0;
+    line-height: inherit;
+    margin-left: 0;
+    margin-right: 1px;
+    min-width: 3em;
+    padding: 0.4em 1.2em;
+    text-align: center;
+
+}
+
+.navigation li a:hover,
+.navigation li.active a {
+    background-color: #fff;
+    border: 3px solid #00b2f0;
+    border-radius: 0;
+    color: #333;
+    display: inline-block;
+    letter-spacing: 0;
+    line-height: inherit;
+    margin-left: 0;
+    margin-right: 1px;
+    min-width: 3em;
+    padding: 0.4em 1.2em;
+    text-align: center;
+}
+
