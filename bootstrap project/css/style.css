@@ -1,3 +1,8 @@
+
+
+
+
+/* 2nd page */
 #secondPage{
     background-color:black;
     margin: 0;
@@ -78,4 +83,16 @@
    text-align: center;
     color: blanchedalmond;
     justify-content:center; 
+}
+/* third page 1st row css */
+#thirdPage{
+    background-color: antiquewhite;
+    margin:0;
+    padding:0;
+}
+#thirdPageFirstRow{
+    text-align: center;
+}
+#thirdPageSecondRow{
+    text-align: center;
 }

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="">userName</label><br>
+    <input type="text" id="userName"><br>
+    <button onclick="login()" >Login</button><br>
+    <p id="result">No result</p>
+
+
+    <script>
+        function login(){
+            let userName=document.getElementById("userName").value;
+            if(userName=="shimul"){
+                document.getElementById("result").innerHTML="Welcome";
+            }
+            else{
+                document.getElementById("result").innerHTML="Please input Correct username";
+            }
+        }
+    </script>
+</body>
+</html>
