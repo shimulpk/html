@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-   <script>
+   <!-- <script>
     let userInput =prompt("enter number");
     let counter=0
     for(let i=1; i<=userInput; i++){
@@ -20,6 +20,20 @@
     else{
         document.writeln("it is not prime number")
     }
-   </script> 
+   </script>  -->
+   <script>
+    let number=prompt("Enter Number");
+    let counter=0
+    for(let i=1; i<=number; i++){
+   if(number% i==0)
+   counter=counter+1;
+    }
+    if(counter==2){
+        document.writeln("It is a prime number");
+    }
+    else{
+        document.writeln(" <h1 style='color: red'>This is not prime number </h1>");
+    }
+   </script>
 </body>
 </html>

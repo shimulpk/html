@@ -1,4 +1,15 @@
-
+#navText{
+    color: crimson;
+    font-size: 26px;
+}
+#navTextt{
+    color: aquamarine;
+    font-size: 11px;
+}
+.navbar-nav{
+    margin-left: 180px;
+    font-size:medium;
+}
 
 
 
@@ -93,6 +104,24 @@
 #thirdPageFirstRow{
     text-align: center;
 }
-#thirdPageSecondRow{
+#thirdPafCol{
     text-align: center;
+}
+#chamber{
+    text-align: right;
+}
+#bappap{
+    text-align: left;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bolder;
+    margin-top: 100px;
+    margin-bottom: 5px;
+}
+
+#hons{
+    
+    margin-left: 40px;
+    font-size: 30px;
+    font-style: italic;
 }
