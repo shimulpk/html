@@ -64,9 +64,9 @@
     </script> -->
 
 
-    <script>
+    <!-- <script>
         let userName=prompt("Enter your name");
-        let usernames[
+        let usernames =[
             "Badrul",
             "Shimul",
             "Abul",
@@ -81,8 +81,8 @@
             "rehana",
             "jui",
             "emon",
-        ];
-        let passwords[
+       ];
+        let passwords =[
              "Badrul123",
             "Shimul345",
             "Abul567",
@@ -102,7 +102,7 @@
         for(let index=0; index<usernames.length; index++){
             if(userName==usernames[index]){
                 found=true;
-                let passwords=prompt("Enter your password");
+                let password=prompt("Enter your password");
                 if(password==passwords[index]){
                 document.writeln("welcome");
                 break;
@@ -115,6 +115,46 @@
         }
         if(!found){
             document.writeln("user input is not correct")
+        }
+    </script> -->
+    <script>
+        let userName=prompt("Entername");
+        let usernames=[
+             "Badrul",
+            "Shimul",
+            "Abul",
+            "Tanvir",
+            "miskat",
+            "sadia",
+            "shahran",
+            "masud",
+            "mahbub",
+            "sabbir",
+            "sajin",
+            "rehana",
+            "jui",
+            "emon",
+        ];
+        let passwords=[
+             "Badrul123",
+            "Shimul345",
+            "Abul567",
+            "Tanvir890",
+            "miskat101",
+            "sadia102",
+            "shahran103",
+            "masud104",
+            "mahbub105",
+            "sabbir106",
+            "sajin107",
+            "rehana108",
+            "jui109",
+            "emon110",
+        ];
+        let found=false;
+        for(let index=0;index<usernames.length; index++){
+            found=true;
+            document.writeln()
         }
     </script>
 </body>
