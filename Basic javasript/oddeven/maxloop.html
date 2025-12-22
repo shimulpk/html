@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+    // let numbers=[50,20,30,10,80,60,90,15,25,250,5,-5];
+    // for(let shahran=0;shahran<numbers.length-1; shahran++){
+    //     if(numbers[shahran]>=)
+    // }
+    let numbers=[150,20,30,10,80,60,90];
+    let max=0;
+    let min=999999999;
+
+    for(let shahran=0;shahran<numbers.length; shahran++){
+        if(max<numbers[shahran]){
+            max=numbers[shahran];
+        }
+    }
+    for(let shahran=0;shahran<numbers.length; shahran++){
+        if(min>=numbers[shahran]){
+            min=numbers[shahran]
+        }
+    }
+    document.writeln(max);
+    document.writeln(min);
+   </script>
+</body>
+</html>

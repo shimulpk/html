@@ -7,8 +7,9 @@
 #navbar,li{
     list-style: none;
     float: left;
-    margin-left: 30px;
-    margin-right: 30px;
+  margin-right: 30px;
+  
+   
 }
 #table,tr,th,td{
     border: 1px solid black;
