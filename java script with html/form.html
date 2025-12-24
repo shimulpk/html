@@ -6,34 +6,31 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="">
-        <fieldset><legend>Rejistration Form</legend>
+    <form id="myForm">
         <label for="">Name</label><br>
-        <input type="text"><br>
+        <input type="text" id="name"><br>
         <label for="">Email</label><br>
-        <input type="email"><br>
+        <input type="text" id="email"><br>
         <label for="">Gender</label><br>
-       <input type="radio" name="gender">Male
-       <input type="radio" name="gender">Female
-       <input type="radio" name="gender">Others <br>
+       <input type="radio" name="gender" id="male" value="Male">Male
+       <input type="radio" name="gender" id="female" value="Female">Female
+       <input type="radio" name="gender" id="others" value="Others">Others <br>
        <label for="">Subject</label><br>
-       <select name="" id="">
-        <option value="">--Select one--</option>
-        <option value="">BAngla</option>
-        <option value="">English</option>
-        <option value="">political Science</option>
-        <option value="">Physics</option>
+       <select name="" id="subject">
+        <option selected>--Select one--</option>
+        <option value="Bangla">Bangla</option>
+        <option value="English">English</option>
+        <option value="Political Science">Political Science</option>
+        <option value="physics">Physics</option>
        </select><br>
        <label for="">Hobby</label><br>
-       <input type="checkbox">SLeeping
-       <input type="checkbox">Singing
-       <input type="checkbox">Eating <br>
+       <input type="checkbox" name="hobby" value="Sleeping" id="defaultCheck1">SLeeping
+       <input type="checkbox" name="hobby" value="Singing" id="defaultCheck2">Singing
+       <input type="checkbox" name="hobby" value="Eating" id="defaultCheck2">Eating <br>
        <label for="">About</label><br>
-       <textarea name="" id=""></textarea><br>
-       <button type="submit">Submit</button>
-       <button type="reset">Reset</button>
-       </fieldset>
+       <textarea name="" id="about"></textarea><br>
+       <input type="submit" onclick="formDataSend(event)" value="submit">
     </form>
-    
+   <script src="form.js"></script>
 </body>
 </html>
