@@ -1,6 +1,6 @@
 #navText{
     color: crimson;
-    font-size: 26px;
+    font-size: 15px;
 }
 #navTextt{
     color: aquamarine;
@@ -8,7 +8,7 @@
 }
 .navbar-nav{
     margin-left: 180px;
-    font-size:medium;
+    font-size:small;
 }
 
 
@@ -123,5 +123,100 @@
     
     margin-left: 40px;
     font-size: 30px;
-    font-style: italic;
+     margin-bottom: 0px;
+
+}
+.pepm{
+    margin-left: 40px;
+    margin-top:0px;
+    margin-bottom: 5px;
+    padding:0%;  
+}
+#bmail{
+    color: rgb(23, 101, 236);
+}
+#thirdPageThirdRow{
+    text-align: center;
+}
+#thirdPageFifthRow{
+    text-align: center;
+}
+.thirdPageFif1{
+    margin-bottom: 0%;
+}
+.thirdPageFif2{
+     margin-bottom: 0%;
+}
+.thirdPageFif3{
+ margin-bottom: 0%;
+}
+ /* fourth page css strat */
+#fourthPage{
+    background-color: whitesmoke;
+}
+#fourthPageSrow{
+    background-color: #4b47c9;
+    text-align: center;
+}
+.fourthPageTrowf{
+   text-align: center;
+   margin-left: 40px;
+   margin-bottom: 30px;
+}
+#fifthPage{
+    background-color: white;
+}
+  /* 6th page strat  */
+#sixthPage{
+    background-color: #fcd3d3;
+}
+#sixthPage2ndRow{
+    background-color: #ed0c0c;
+    text-align: center;
+}
+#contactI{
+    color: green;
+}
+#contactF{
+    color: green;
+}
+#submit{
+    color: yellowgreen;
+}
+/* footer page  */
+#footer{
+   background-color: black;
+}
+#footerP{
+    color: white;
+}
+#footerF{
+    font-size: x-large;
+    font-weight: bold;
+    color: rgb(164, 208, 18);
+}
+#hrOne{
+    color: yellow;
+    margin-top: 0px;
+    font-weight:bolder;
+   
+}
+#footerRowCol{
+    font-size: xx-large;
+    color: white;
+}
+#footerScol{
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.iconBottom{
+color: yellow;
+font-size: x-large;
+text-align: right;
+}
+.textBottom{
+    color: white;
 }
