@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="">Amount</label><br>
+    <input type="number" id "amount" oninput="discountAmount()"><br>
+    <label for=""><span id="discount">discount</span></label><br>
+    <label for=""> <span >discount amount</span></label><br>
+    <label for=""><span>final payment</span></label><br>
+
+
+
+    <script>
+        function discountAmount(){
+       let amount=parseInt(document.getElementById("amount").value);
+       let discount =amount/100;
+       let discountAmount=amount*discount;
+       finalPayment=amount-discountAmount;
+       
+    if(amount>1000){
+      discount=25;
+    }
+    else if(amount>701){
+        discount=20;
+    }
+    else if(amount>301){
+        discount=15;
+    }
+    else if(amount>100){
+        discount=10;
+    }
+
+     }
+     document.getElementById("discount").innerHTML=discount;
+     document.getElementById("discount").innerHTML=discountAmount;
+     document.getElementById("discount").innerHTML=finalPayment;
+    </script>
+</body>
+</html>
