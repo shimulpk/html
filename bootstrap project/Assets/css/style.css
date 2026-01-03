@@ -10,6 +10,9 @@
     margin-left: 180px;
     font-size:small;
 }
+#welcome{
+color: yellowgreen;
+}
 
 
 
@@ -153,6 +156,7 @@
  /* fourth page css strat */
 #fourthPage{
     background-color: whitesmoke;
+    text-align: center;
 }
 #fourthPageSrow{
     background-color: #4b47c9;
