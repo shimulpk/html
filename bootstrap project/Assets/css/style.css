@@ -224,3 +224,15 @@ text-align: right;
 .textBottom{
     color: white;
 }
+
+#corfPage{
+    background-color: #f1f0f2;
+    margin: 0;
+    padding: 0;
+}
+#cfRow1{
+    background-color: #5ad508;
+   margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
