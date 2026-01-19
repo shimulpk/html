@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <label for="">Number 1</label> <br>
+    <!-- <label for="">Number 1</label> <br>
     <input type="text" id="number1"><br>
     <label for="">Number 2</label> <br>
     <input type="text" id="number2"><br><br>
@@ -37,6 +37,60 @@
            
 
 
+        }
+    </script> -->
+
+    <!-- <label for="">number1</label> <br>
+    <input type="number" id="number1"><br>
+    <label for="">number2</label> <br>
+    <input type="number" id="number2"> <br> <br>
+    <input type="button" onclick="addSub('+')" value="+">
+    <input type="button" onclick="addSub('-')" value="-">
+    <span id="result"></span>
+
+    <script>
+        function addSub(pk){
+        let number1=parseInt(document.getElementById("number1").value);
+        let number2=parseInt(document.getElementById("number2").value);
+        let add=number1+number2;
+        let sub=number1-number2;
+        switch(pk){
+            case "+": 
+            document.getElementById("result").innerHTML=add;
+            break;
+            case "-": 
+            document.getElementById("result").innerHTML=sub;
+            break;
+            default: 
+            break;
+
+
+        }
+
+
+}
+    </script> -->
+
+    <label for="">Number1</label>
+    <input type="text" id="number1"> <br> <br>
+
+    <label for="">Number2</label>
+    <input type="text" id="number2"> <br>
+
+    <button value="+" onclick="addSum()">+</button>
+    <span id="add"></span>
+    <button value="-" onclick="addSum()">-</button>
+    <span id="sub"></span><br>
+
+
+    <script>
+        function addSum(){
+            let number1=parseInt(document.getElementById("number1").value);
+            let number2=parseInt(document.getElementById("number2").value);
+            let add=number1+number2;
+            let sub=number1-number2;
+           document.getElementById("add").innerHTML=add;
+           document.getElementById("sub").innerHTML=sub;
         }
     </script>
 </body>

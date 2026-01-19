@@ -6,6 +6,7 @@
     <title>Document</title>
 </head>
 <body>
+    <!-- sir r niom -->
     <label for="">Amount</label><br>
     <input type="number" id "amount" oninput="discountAmount()"><br>
     <label for=""><span id="discount">discount</span></label><br>
@@ -39,5 +40,37 @@
      document.getElementById("discount").innerHTML=discountAmount;
      document.getElementById("discount").innerHTML=finalPayment;
     </script>
+
+            <!-- chatgbt niom -->
+    <!-- <label for="">Amount</label><br>
+    <input type="number" id="amount">
+    <button onclick="calculateDiscount()">calculate</button> 
+    <span id="result"></span> <br>
+
+    <script>
+        function calculateDiscount(){
+            let amount=document.getElementById("amount").value;
+            let discount=0;
+            if(amount>=1000){
+                discount=25;
+            }
+            else if(amount>=700){
+                discount=20;
+            }
+            else if(amount>=300){
+                discount=15;
+            }
+            else if(amount>=100){
+                discount=10;
+            }
+            else{
+                discount=0;
+            }
+            let finalPrice=amount-discount;
+            document.getElementById("result").innerHTML="Amount: "+amount+ "<br>" +
+            "Discount: "+discount+"</br>"+
+            "Finalprice: "+finalPrice+"</br>";
+        }
+    </script> -->
 </body>
 </html>

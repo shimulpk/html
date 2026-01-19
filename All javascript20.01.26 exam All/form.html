@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="myForm">
+        <label for="">Name</label><br>
+        <input type="text" id="name"><br>
+
+        <label for="">Contact</label><br>
+        <input type="number" id="contact"><br>
+
+        <label for="">Remarks</label><br>
+        <textarea name="" id="remarks"></textarea><br>
+
+        <label for="">Sex</label><br>
+        <input type="radio" name="sex" value="Male">Male
+        <input type="radio" name="sex" value="Female">Female <br>
+
+        <label for="">Course</label><br>
+        <input type="checkbox" name="course" value="NT">NT
+        <input type="checkbox" name="course" value="EAD">EAD
+        <input type="checkbox" name="course" value="DDD">DDD
+        <input type="checkbox" name="course" value="ESAD">ESAD <br>
+
+        <label for="">Location</label><br>
+        <select name="" id="location">
+            <option value="Banani">Banani</option>
+            <option value="Dhanmondi">Dhanmondi</option>
+            <option value="Mirpur">Mirpur</option>
+        </select> <br>
+
+        <input type="submit" value="submit">
+
+
+        <script>
+            function formDataSend(event){
+                event.preventDefault();
+
+
+
+                let name=document.getElementById("name").value;
+                let contact=document.getElementById("contact").value;
+                let remarks=document.getElementById("remarks").value;
+
+                let sex=document.querySelector("input[name='sex']:checked");
+                let course=document.querySelectorAll("input[name='course']:checked");
+
+                 let location=document.getElementById("location").value;
+
+
+                 let courses=[];
+                 for(let i=0; i<course.length; i++){
+                    courses.push(course[i].value);
+                 }
+
+                 let output="Name: "+name+ "\n"+
+                 "Contact: "+contact+"\n"+
+                 "Remarks: "+remarks+"\n"+
+                 "Sex: "+sex.value+ "\n"+
+                 "Courses: "+courses+"\n"+
+                 "Location: "+location+"\n";
+
+
+                 let newWindow=window.open("","_blank");
+                 newWindow.document.writeln("<pre>"+output+"</pre>");
+            }
+
+            let myForm=document.getElementById("myForm");
+            myForm.addEventListener("submit",formDataSend);
+        </script>
+
+    </form>
+</body>
+</html>

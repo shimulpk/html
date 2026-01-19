@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-<label for="">length</label><br>
+<!-- <label for="">length</label><br>
 <input type="text" id="length"><br>
 <label for="">Width</label><br>
 <input type="text" id="width" oninput=" areaPerimeter()"><br>
@@ -26,7 +26,30 @@
 
 }
 </script>
+ -->
 
+ <label for="">height</label>
+ <input type="text" id="height"><br> <br>
+
+ <label for="">Width</label>
+ <input type="text" id="width"><br> <br>
+
+ <input type="submit" value="submit" onclick="areaPerimeter()"><br>
+
+ <label for="">Area <span id="area"></span></label><br>
+ <label for="">Perimeter <span id="perimeter"></span></label><br>
+ 
+
+ <script>
+    function areaPerimeter(){
+
+   
+    let height=parseInt(document.getElementById("height").value);
+    let width=parseInt(document.getElementById("width").value);
+    let area=document.getElementById("area").innerHTML=height*width;
+    let perimeter=document.getElementById("perimeter").innerHTML=2+(height*width);
+     }
+ </script>
 
 </body>
 </html>

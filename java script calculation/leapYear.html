@@ -9,22 +9,33 @@
 
 <body>
     <script>
-        let year = prompt("Enter Year");
-        if (year % 4 == 0) {
-            if (year % 100 == 0) {
-                if (year % 400 == 0) {
-                    document.writeln(year + " is a leap year");
-                }
-                else {
-                    document.writeln(year + " is not leap year");
-                }
-            }
-            else {
-                document.writeln(year + " is a leap year");
-            }
+        // sir r niom
+        // let year = prompt("Enter Year");
+        // if (year % 4 == 0) {
+        //     if (year % 100 == 0) {
+        //         if (year % 400 == 0) {
+        //             document.writeln(year + " is a leap year");
+        //         }
+        //         else {
+        //             document.writeln(year + " is not leap year");
+        //         }
+        //     }
+        //     else {
+        //         document.writeln(year + " is a leap year");
+        //     }
+        // }
+        // else {
+        //     document.writeln(year + " is not leap year");
+        // }
+
+        // chatgbt niom
+
+        let year=prompt("Enter the year");
+        if((year%4===0 && year%100!==0)|| (year%400===0)){
+            document.writeln(year+" is a leap year");
         }
-        else {
-            document.writeln(year + " is not leap year");
+        else{
+            document.writeln(year+" is not leap year");
         }
     </script>
 </body>
